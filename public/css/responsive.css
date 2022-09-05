@@ -1,0 +1,215 @@
+
+@media (max-width: 480px) {
+  .main-gif img{
+    width:80vw;
+    height: 80vw;
+  }
+}
+
+@media (max-width: 767px) {
+.logo{
+  
+  width: 100px;
+  height: 22px;
+  }
+
+.nav-item{
+
+  padding: 10px 0;
+
+}
+
+.navbar-nav{
+
+  align-items: unset !important;
+
+}
+
+.nav-custom{
+
+  padding: 0;
+  height: auto;
+
+}
+
+
+.order-xs-2{
+
+  order: 2;
+
+}
+
+
+.section-padding {
+  padding: 3rem 0;
+
+}
+
+  .main-section{
+
+    padding: 50px 0;
+
+  }
+
+  .title h1 {
+    
+    font-size: 30px;
+    line-height: 40px;
+   
+}
+
+
+.custom-btn  {
+
+  font-size: 12px;
+  padding: 10px 12px;
+  margin-right: 10px !important;
+
+}
+
+.social-btn img{
+
+  padding: 10px;
+  width: 40px;
+  height: 40px;
+
+
+}
+
+
+
+
+
+
+.social-btn ul li{
+
+  margin-bottom: 10px;
+
+}
+
+
+.team{
+
+  margin-bottom: 50px;
+
+}
+
+.roadmap-meta .roadmap-center,
+.roadmap-meta .roadmap-data{
+
+width: auto;
+
+}
+
+.roadmap-box {
+
+  background-position: 100% 100%;
+  background-size: 40%;
+  -webkit-clip-path: polygon(88% 0,100% 9%,100% 100%,0 100%,0 0);
+    clip-path: polygon(88% 0,100% 9%,100% 100%,0 100%,0 0);
+}
+
+}
+
+
+@media (max-width: 991px) and (min-width: 768px) {
+
+
+  .order-xs-2{
+
+    order: 2;
+  
+  }
+  
+  
+  
+
+  .main-section{
+
+    padding: 50px 0;
+
+  }
+
+
+  .stars img:nth-child(1) {
+
+    position: absolute;
+    right: 30px;
+   
+  }
+  
+
+.stars img:nth-child(2) {
+
+
+  right: 0;
+ 
+}
+
+.team{
+
+  margin-bottom: 50px;
+
+}
+
+}
+@media (max-width: 1200px) and (min-width: 991px) {
+ 
+
+  .logo{
+
+    width: 200px;
+    height: 44px;
+
+  }
+
+  .nav-item{
+
+    padding: 0 10px;
+
+  }
+  
+
+  .custom-btn  {
+
+    font-size: 12px;
+    padding: 10px 12px;
+    margin-right: 10px !important;
+  
+  }
+  
+
+
+  .social-btn ul li{
+
+    margin-bottom: 10px;
+  
+  }
+
+    .social-btn img{
+
+      padding: 10px;
+      width: 40px;
+      height: 40px;
+    
+    
+    }
+
+    .team{
+
+      margin-bottom: 50px;
+    
+    }
+    
+}
+
+
+@media (max-width: 1440px) and (min-width: 1200px) {
+
+
+  .social-btn ul li{
+
+    margin-bottom: 10px;
+  
+  }
+}

@@ -1,0 +1,440 @@
+:root {
+  --primary: #ffb400;
+  --secondary: #0d0d2b;
+  --text-dark: #000;
+  --text: #fff;
+}
+
+body {
+  background-color: var(--secondary) !important;
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.main {
+  background: url(../images/background.webp) !important;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--text);
+}
+
+p {
+  color: var(--text);
+}
+
+img {
+  width: 100%;
+}
+
+a:hover {
+  color: var(--primary) !important;
+}
+
+
+
+
+
+
+.custom-btn {
+  background-color: var(--primary);
+  color: var(--text-dark) !important;
+  padding: 16px 36px;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: all 0.5s;
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+  border: 1px solid var(--primary);
+  cursor: pointer;
+}
+
+
+.custom-btn:hover {
+  background-color: transparent;
+  color: var(--primary);
+  border: 1px solid var(--primary);
+}
+
+
+
+.section-padding {
+  padding: 5rem 0;
+  position: relative;
+}
+
+/* 
+.section-bg::after{
+
+  content: "";
+  position: absolute;
+  display: inline-block;
+  width: 100%;
+  background-image: linear-gradient(180deg,#0000,var(--secondary));
+  height: 100px;
+
+  
+  } */
+
+.logo {
+  width: 300px;
+  height : 67px;
+}
+
+.nav-custom {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: var(--text);
+  z-index: 9999;
+  height: 90px;
+  padding: 0 3rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: var(--text) !important;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.nav-item {
+  padding: 0 20px;
+  position: relative;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url(../images/menu.webp) !important;
+}
+
+.navbar-nav {
+  align-items: center;
+}
+
+.nav-link {
+  position: relative;
+}
+
+.nav-link::after {
+  content: "";
+  background-color: var(--primary);
+  position: absolute;
+  height: 2px;
+  width: 0;
+  left: 0;
+  transition: 0.5s ease-in;
+  bottom: 0;
+}
+
+
+
+@media screen and (min-width: 480px) {
+  .nav-link:hover::after {
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+.main-gif img{
+
+  width: 400px;
+  height: 400px;
+}
+
+.title {
+  text-align: center;
+  margin-top: 2rem;
+}
+.title p {
+  letter-spacing: 2px;
+}
+.title h1 {
+  font-weight: 600;
+  font-size: 80px;
+  line-height: 93px;
+}
+.title h2 {
+  font-weight: 900;
+  font-size: 40px;
+  letter-spacing: 2px;
+}
+.title h1 span {
+  color: var(--primary);
+}
+
+.main-box,
+.main-box-lg {
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.main-button {
+  margin-top: 50px;
+}
+
+.main-box p {
+  font-size: 18px;
+  line-height: 27px;
+  opacity: 0.7;
+}
+
+.main-box-lg p{
+
+  font-size: 28px;
+  line-height: 37px;
+  opacity: 0.7;
+
+}
+
+.main-box span,
+.main-box-lg span {
+  font-weight: 900;
+}
+
+.main-box a,
+.main-box-lg a {
+  color: white;
+}
+
+
+
+.social-btn {
+  display: flex;
+  justify-content: center;
+}
+.social-btn ul {
+  padding: 0;
+  display: flex;
+  list-style: none;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.social-btn img {
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(
+    105.61deg,
+    rgba(255, 255, 255, 0.17) 0%,
+    rgba(255, 255, 255, 0.102) 100%
+  );
+  border-radius: 10px;
+  padding: 12px;
+  margin-right: 15px;
+}
+
+.main-section {
+  margin-top: 30px;
+}
+
+
+footer {
+  background-color: #ffffff08;
+  padding-top: 50px;
+  z-index: 999;
+}
+
+
+
+
+.c img {
+  width: 190px;
+}
+
+
+
+.main-counter {
+  max-width: 696px;
+  width: 100%;
+  padding: 45px 93px;
+  background-color: rgba(255, 255, 255, 0.09);
+  border-radius: 8px;
+}
+.main-counter p {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.total{
+
+  margin-top: 3rem;
+  margin-bottom: 0 !important;
+  color: var(--primary);
+
+}
+.counter {
+  border: 1px solid #fff;
+  border-radius: 5px;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  margin-bottom: 40px;
+}
+.counter button {
+  background: transparent;
+  border: none;
+  color: white;
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+}
+.image-slider {
+  
+  margin: 100px 0px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 3rem !important;
+  padding-right: 3rem !important;
+}
+
+.image-slider img {
+  width: 219px;
+  height: 219px;
+  margin: auto; 
+}
+/* ROADMAP */
+
+.roadmap{
+  margin-top: 2rem;
+}
+
+.roadmap-meta {
+  align-items: stretch;
+  display: flex;
+  justify-content: center;
+}
+
+.roadmap-meta .roadmap-center {
+  background: url(../images/roadmap-dot.png);
+  background-position: top;
+  background-repeat: repeat-y;
+  text-align: center;
+  width: 10%;
+}
+
+.roadmap-meta .phases {
+  background-color: var(--secondary);
+  border: 2px solid #4b0947;
+  border: 2px solid var(--primary);
+  color: #fff;
+  color: var(--text);
+}
+
+.roadmap-meta .phases p {
+  margin-bottom: 0;
+  padding: 10px;
+}
+
+.roadmap-meta .roadmap-data {
+  margin-bottom: 50px;
+  padding: 0 30px;
+  width: 70%;
+}
+
+.roadmap-box {
+
+  border: 1px solid var(--primary);
+  -webkit-clip-path: polygon(95% 0,100% 25%,100% 100%,0 100%,0 0);
+  clip-path: polygon(95% 0,100% 25%,100% 100%,0 100%,0 0);
+  color: var(--primary);
+  padding: 40px 25px;
+  position: relative;
+  transition: all .5s;
+  z-index: 1;
+}
+
+.roadmap-box h2, .roadmap-box p {
+  color: #fff;
+}
+
+/* ABOUT */
+
+.team{
+
+  border: 2px solid var(--primary);
+  text-align: center;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: var(--secondary);
+
+}
+
+.team h4{
+
+  padding: 2rem 0;
+
+}
+
+/* FAQ */
+
+.accordion-item{
+
+margin-bottom: 2rem;
+
+
+}
+
+.accordion-header{
+
+  background-color: var(--primary);
+
+}
+.accordion-body{
+
+  color: var(--text);
+  font-size: 18px;
+  line-height: 35px;
+  opacity: 0.7;
+
+}
+.accordion-button{
+
+  font-weight: 700 !important;
+  color: var(--text) !important;
+
+}
+
+.accordion-button:focus{
+
+  border: none !important;
+  box-shadow: none !important;
+
+}
+
+.accordion-button:not(.collapsed){
+
+  background-color:#ffb40066 !important;
+  color: var(--text) !important;
+
+}
+
+.accordion-button i{
+
+  margin-right: 10px;
+  font-size: 2rem;
+
+}
+
+.accordion-collapse{
+
+  border: 1px solid var(--primary) !important;
+
+}
+
+.accordion-item:first-of-type .accordion-button {
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+}
